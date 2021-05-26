@@ -27,3 +27,7 @@ vnoremap <leader>hr          :action ContextHelp<CR>
 let g:WhichKeyDesc_Help_ContextualHelpAlt = "<leader>h<Space> contextual-help"
 nnoremap <leader>h<Space>    :action ContextHelp<CR>
 vnoremap <leader>h<Space>    :action ContextHelp<CR>
+
+let g:WhichKeyDesc_Help_ShowTips = "<leader>ht show-tips"
+nnoremap <leader>ht          :action ShowTips<CR>
+vnoremap <leader>ht          :action ShowTips<CR>

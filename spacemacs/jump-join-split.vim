@@ -4,17 +4,6 @@ nnoremap <leader>j=    :action ReformatCode<CR>
 " Reformat selected lines
 vnoremap <leader>j=    :action ReformatCode<CR>
 
-" Focus on project window.
-" Sadly when you are inside the project window this key binding does not work
-" anymore. You can use <A-1> if you want to close the window or <Esc> if you
-" want to leave the window opened and focus on the code.
-let g:WhichKeyDesc_JumpJoinSplit_JumpToProjectWindow = "<leader>jD jump-to-project-window"
-nnoremap <leader>jD    :action ActivateProjectToolWindow<CR>
-vnoremap <leader>jD    :action ActivateProjectToolWindow<CR>
-let g:WhichKeyDesc_JumpJoinSplit_JumpToProjectWindowAlt = "<leader>jd jump-to-project-window"
-nnoremap <leader>jd    :action ActivateProjectToolWindow<CR>
-vnoremap <leader>jd    :action ActivateProjectToolWindow<CR>
-
 " Jump to character (AceJump plugin required)
 let g:WhichKeyDesc_JumpJoinSplit_JumpToCharacter = "<leader>jj jump-to-character"
 nnoremap <leader>jj    :action AceAction<CR>

@@ -26,17 +26,17 @@ vnoremap <leader>gs    :action Vcs.Show.Local.Changes<CR>
 let g:WhichKeyDesc_GitVcs_VersionControl = "<leader>gv +version-control"
 
 " Update project (git pull)
-let g:WhichKeyDesc_GitVcs_Vcs_Pull = "<leader>gv+ pull"
-nnoremap <leader>gv+    :action Vcs.UpdateProject<CR>
-vnoremap <leader>gv+    :action Vcs.UpdateProject<CR>
+let g:WhichKeyDesc_GitVcs_Vcs_Pull = "<leader>gu pull"
+nnoremap <leader>gu    :action Vcs.UpdateProject<CR>
+vnoremap <leader>gu    :action Vcs.UpdateProject<CR>
 
 " Annotate. Show when each line was last edited and by whom.
-let g:WhichKeyDesc_GitVcs_Vcs_Annotate = "<leader>gvg annotate"
-nnoremap <leader>gvg    :action Annotate<CR>
-vnoremap <leader>gvg    :action Annotate<CR>
+let g:WhichKeyDesc_GitVcs_Vcs_Annotate = "<leader>ga annotate"
+nnoremap <leader>ga    :action Annotate<CR>
+vnoremap <leader>ga    :action Annotate<CR>
 
 " Show log (git log)
-let g:WhichKeyDesc_GitVcs_Vcs_Log = "<leader>gvl log"
-nnoremap <leader>gvl    :action Vcs.Show.Log<CR>
-vnoremap <leader>gvl    :action Vcs.Show.Log<CR>
+let g:WhichKeyDesc_GitVcs_Vcs_Log = "<leader>gl log"
+nnoremap <leader>gl    :action Vcs.Show.Log<CR>
+vnoremap <leader>gl    :action Vcs.Show.Log<CR>
 """ ---------------------------------------------

@@ -4,9 +4,9 @@ nnoremap <leader>p!    :action ActivateTerminalToolWindow<CR>
 vnoremap <leader>p!    :action ActivateTerminalToolWindow<CR>
 
 " Toggle between implementation file and its test file
-let g:WhichKeyDesc_Projects_ToggleBetweenImplAndTestFile = "<leader>pa toggle-between-impl-and-test-file"
-nnoremap <leader>pa    :action GotoTest<CR>
-vnoremap <leader>pa    :action GotoTest<CR>
+" let g:WhichKeyDesc_Projects_ToggleBetweenImplAndTestFile = "<leader>pa toggle-between-impl-and-test-file"
+" nnoremap <leader>pa    :action GotoTest<CR>
+" vnoremap <leader>pa    :action GotoTest<CR>
 
 " Switch among recently opened files
 let g:WhichKeyDesc_Projects_ListBuffers = "<leader>pb list-buffers"

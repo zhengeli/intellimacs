@@ -1,12 +1,12 @@
 " Compile selected file, package or module
-let g:WhichKeyDesc_CompileComments_Compile = "<leader>cC     compile"
-nnoremap <leader>cC    :action Compile<CR>
-vnoremap <leader>cC    :action Compile<CR>
+let g:WhichKeyDesc_CompileComments_Compile = "<leader>cc     compile"
+nnoremap <leader>cc    :action Compile<CR>
+vnoremap <leader>cc    :action Compile<CR>
 
 " Make project
-let g:WhichKeyDesc_CompileComments_CompileDirty = "<leader>cc     compile-dirty"
-nnoremap <leader>cc    :action CompileDirty<CR>
-vnoremap <leader>cc    :action CompileDirty<CR>
+let g:WhichKeyDesc_CompileComments_CompileDirty = "<leader>cC     compile-dirty"
+nnoremap <leader>cC    :action CompileDirty<CR>
+vnoremap <leader>cC    :action CompileDirty<CR>
 
 " Comment lines
 let g:WhichKeyDesc_CompileComments_CommentByLineComment = "<leader>cl     comment-by-line-comment"

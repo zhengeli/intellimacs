@@ -20,9 +20,6 @@ vnoremap <leader>feR    <Esc>:source ~/.ideavimrc<CR>
 """ ---------------------------------------------
 
 " Find files
-let g:WhichKeyDesc_Files_GotoFileAlt = "<leader>fF goto-file"
-nnoremap <leader>fF    :action GotoFile<CR>
-vnoremap <leader>fF    :action GotoFile<CR>
 let g:WhichKeyDesc_Files_GotoFile = "<leader>ff goto-file"
 nnoremap <leader>ff    :action GotoFile<CR>
 vnoremap <leader>ff    :action GotoFile<CR>
@@ -55,11 +52,21 @@ let g:WhichKeyDesc_Files_FileTree = "<leader>ft file-tree"
 nnoremap <leader>ft    :action ActivateProjectToolWindow<CR>
 vnoremap <leader>ft    :action ActivateProjectToolWindow<CR>
 
-""" Yank/Copy Submenu ---------------------------------
 let g:WhichKeyDesc_Files_YankCopy = "<leader>fy +Yank/Copy"
 
+""" Yank/Copy Submenu ---------------------------------
+
+let g:WhichKeyDesc_Files_YankCopy_ReferencePath = "<leader>fyr ref-path"
+nnoremap <leader>fyr    :action CopyReference<CR>
+vnoremap <leader>fyr    :action CopyReference<CR>
+
+let g:WhichKeyDesc_Files_YankCopy_SourceRootFilePath = "<leader>fys src-path"
+nnoremap <leader>fys    :action CopySourceRootPath<CR>
+vnoremap <leader>fys    :action CopySourceRootPath<CR>
+
 " Copy file path
-let g:WhichKeyDesc_Files_YankCopy_FilePath = "<leader>fyy file-path"
+let g:WhichKeyDesc_Files_YankCopy_FilePath = "<leader>fyy abs-path"
 nnoremap <leader>fyy    :action CopyAbsolutePath<CR>
 vnoremap <leader>fyy    :action CopyAbsolutePath<CR>
+
 """ ---------------------------------------------------

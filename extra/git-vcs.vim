@@ -14,9 +14,14 @@ nnoremap <leader>gg    :action Vcs.QuickListPopupAction<CR>
 vnoremap <leader>gg    :action Vcs.QuickListPopupAction<CR>
 
 " Vcs push (git push)"
-let g:WhichKeyDesc_GitVcs_Push = "<leader>gp push"
-nnoremap <leader>gp    :action Vcs.Push<cr>
-vnoremap <leader>gp    :action Vcs.Push<cr>
+let g:WhichKeyDesc_GitVcs_Push = "<leader>gP push"
+nnoremap <leader>gP    :action Vcs.Push<cr>
+vnoremap <leader>gP    :action Vcs.Push<cr>
+
+" Vcs push (git push)"
+let g:WhichKeyDesc_GitVcs_PullRequests = "<leader>gp pull-requests"
+nnoremap <leader>gp    :action ActivatePullRequestsToolWindow<cr>
+vnoremap <leader>gp    :action ActivatePullRequestsToolWindow<cr>
 
 " Show shelf
 let g:WhichKeyDesc_GitVcs_Shelf = "<leader>gS shelf"

@@ -1,3 +1,9 @@
+" Reformat whole buffer
+let g:WhichKeyDesc_Files_Reformat= "<leader>f= reformat"
+nnoremap <leader>f=    :action ReformatCode<CR>
+" Reformat selected lines
+vnoremap <leader>f=    :action ReformatCode<CR>
+
 " Show bookmarks.
 " Create bookmark 0 with <C-S-0>, Create bookmark 1 with <C-S-1> and so on.
 " Go to bookmark 0 with <C-0>, go to bookmark 1 with <C-1> and so on.

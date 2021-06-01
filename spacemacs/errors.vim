@@ -3,11 +3,6 @@ let g:WhichKeyDesc_Errors_ListErrors = "<leader>el list-errors"
 nnoremap <leader>el    :action CodeInspection.OnEditor<CR>
 vnoremap <leader>el    :action CodeInspection.OnEditor<CR>
 
-" Go to previous error
-let g:WhichKeyDesc_Errors_PreviousError = "<leader>eN previous-error"
-nnoremap <leader>eN    :action GotoPreviousError<CR>
-vnoremap <leader>eN    <Esc>:action GotoPreviousError<CR>
-
 " Go to next error
 let g:WhichKeyDesc_Errors_NextError = "<leader>en next-error"
 nnoremap <leader>en    :action GotoNextError<CR>

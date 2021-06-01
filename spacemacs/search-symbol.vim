@@ -9,12 +9,6 @@ nnoremap <leader>sh    :action HighlightUsagesInFile<CR>
 vnoremap <leader>sh    <Esc>:action HighlightUsagesInFile<CR>
 
 " Search in project.
-let g:WhichKeyDesc_SearchSymbol_SearchProject = "<leader>sp search-project"
-nnoremap <leader>sp    :action FindInPath<CR>
-vnoremap <leader>sp    :action FindInPath<CR>
-let g:WhichKeyDesc_SearchSymbol_ResumeLastSearch = "<leader>sl resume-last-search"
-nnoremap <leader>sl    :action FindInPath<CR>
-vnoremap <leader>sl    :action FindInPath<CR>
 let g:WhichKeyDesc_SearchSymbol_Swoop = "<leader>ss swoop"
 nnoremap <leader>ss    :action FindInPath<CR>
 vnoremap <leader>ss    :action FindInPath<CR>

@@ -12,3 +12,13 @@ vnoremap <leader>sh    <Esc>:action HighlightUsagesInFile<CR>
 let g:WhichKeyDesc_SearchSymbol_Swoop = "<leader>ss swoop"
 nnoremap <leader>ss    :action FindInPath<CR>
 vnoremap <leader>ss    :action FindInPath<CR>
+
+" Show usages for symbol
+let g:WhichKeyDesc_Major_Help_ShowUsages = "<leader>su show-usages"
+nnoremap <leader>su      :action ShowUsages<CR>
+vnoremap <leader>su      :action ShowUsages<CR>
+
+" Find usages for symbol
+let g:WhichKeyDesc_Major_Help_FindUsages = "<leader>sU find-usages"
+nnoremap <leader>sU      :action FindUsages<CR>
+vnoremap <leader>sU      :action FindUsages<CR>

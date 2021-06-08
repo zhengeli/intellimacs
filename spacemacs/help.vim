@@ -20,9 +20,10 @@ let g:WhichKeyDesc_Help_PluginDevelopment = "<leader>hp plugin-development"
 nnoremap <leader>hp    :action WelcomeScreen.DevelopPlugins<CR>
 vnoremap <leader>hp    :action WelcomeScreen.DevelopPlugins<CR>
 
-let g:WhichKeyDesc_Help_ShowTips = "<leader>ht show-tips"
-nnoremap <leader>ht          :action ShowTips<CR>
-vnoremap <leader>ht          :action ShowTips<CR>
+let g:WhichKeyDesc_Help_ShowTips = "<leader>hT show-tips"
+nnoremap <leader>hT          :action ShowTips<CR>
+vnoremap <leader>hT          :action ShowTips<CR>
+
 
 " Visit Intellij documentation website
 let g:WhichKeyDesc_Help_ContextualHelp = "<leader>hw contextual-help"

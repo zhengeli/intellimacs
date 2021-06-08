@@ -1,34 +1,34 @@
 " Call hierarchy
-let g:WhichKeyDesc_Major_Help_CallHierarchy = "<leader>mhc call-hierarchy"
-nnoremap <leader>mhc      :action CallHierarchy<CR>
-vnoremap <leader>mhc      <Esc>:action CallHierarchy<CR>
-
-" Show implementation
-let g:WhichKeyDesc_Major_Help_ShowImplementation = "<leader>mhH show-implementation"
-nnoremap <leader>mhH      :action QuickImplementations<CR>
-vnoremap <leader>mhH      <Esc>:action QuickImplementations<CR>
-
-" Show documetation
-let g:WhichKeyDesc_Major_Help_ShowDocumentation = "<leader>mhh show-documentation"
-nnoremap <leader>mhh      :action QuickJavaDoc<CR>
-vnoremap <leader>mhh      <Esc>:action QuickJavaDoc<CR>
-
-" Inheritance hierarchy
-let g:WhichKeyDesc_Major_Help_InheritanceHierarchy = "<leader>mhi inheritance-hierarchy"
-nnoremap <leader>mhi      :action TypeHierarchy<CR>
-vnoremap <leader>mhi      <Esc>:action TypeHierarchy<CR>
+let g:WhichKeyDesc_Major_Help_CallHierarchy = "<leader>qc call-hierarchy"
+nnoremap <leader>qc      :action CallHierarchy<CR>
+vnoremap <leader>qc      <Esc>:action CallHierarchy<CR>
 
 " Type Definition
-let g:WhichKeyDesc_Major_Help_TypeDefinition = "<leader>mht type-definition"
-nnoremap <leader>mht      :action QuickTypeDefinition<CR>
-vnoremap <leader>mht      :action QuickTypeDefinition<CR>
+let g:WhichKeyDesc_Major_Help_TypeDefinition = "<leader>qd type-definition"
+nnoremap <leader>qd      :action QuickTypeDefinition<CR>
+vnoremap <leader>qd      :action QuickTypeDefinition<CR>
 
-" Show usages for symbol
-let g:WhichKeyDesc_Major_Help_ShowUsages = "<leader>mhU show-usages"
-nnoremap <leader>mhU      :action ShowUsages<CR>
-vnoremap <leader>mhU      :action ShowUsages<CR>
+" Show documetation
+let g:WhichKeyDesc_Major_Help_ShowDocumentation = "<leader>qh show-documentation"
+nnoremap <leader>qh      :action QuickJavaDoc<CR>
+vnoremap <leader>qh      <Esc>:action QuickJavaDoc<CR>
 
-" Find usages for symbol
-let g:WhichKeyDesc_Major_Help_FindUsages = "<leader>mhu find-usages"
-nnoremap <leader>mhu      :action FindUsages<CR>
-vnoremap <leader>mhu      :action FindUsages<CR>
+" Show implementation
+let g:WhichKeyDesc_Major_Help_ShowImplementation = "<leader>qi show-implementation"
+nnoremap <leader>qi      :action QuickImplementations<CR>
+vnoremap <leader>qi      <Esc>:action QuickImplementations<CR>
+
+" Show changes in current file
+let g:WhichKeyDesc_Help_QuickActions = "<leader>qq quick-help"
+nnoremap <leader>qq    :action QuickActions<CR>
+vnoremap <leader>qq    :action QuickActions<CR>
+
+" Inheritance hierarchy
+let g:WhichKeyDesc_Major_Help_InheritanceHierarchy = "<leader>qt inheritance-hierarchy"
+nnoremap <leader>qt      :action TypeHierarchy<CR>
+vnoremap <leader>qt      <Esc>:action TypeHierarchy<CR>
+
+" Show UML diagram of current class
+let g:WhichKeyDesc_UiTogglesThemes_ShowUMLDiagram = "<leader>qu uml-diagram"
+nnoremap <leader>qu    :action ShowUmlDiagram<CR>
+vnoremap <leader>qu    :action ShowUmlDiagram<CR>

@@ -1,72 +1,78 @@
+" ToolKit
 " Show bookmarks.
-let g:WhichKeyDesc_Applications_ShowBookmarks = "<leader>ab bookmarks"
-nnoremap <leader>ab    :action ShowBookmarks<CR>
-vnoremap <leader>ab    :action ShowBookmarks<CR>
+let g:WhichKeyDesc_Applications_ShowBookmarks = "<leader>kb bookmarks"
+nnoremap <leader>kb    :action ShowBookmarks<CR>
+vnoremap <leader>kb    :action ShowBookmarks<CR>
 
 " Debug
-let g:WhichKeyDesc_Applications_Debug = "<leader>ad debug"
-nnoremap <leader>ad    :action ActivateDebugToolWindow<CR>
-vnoremap <leader>ad    :action ActivateDebugToolWindow<CR>
+let g:WhichKeyDesc_Applications_Debug = "<leader>kd debug"
+nnoremap <leader>kd    :action ActivateDebugToolWindow<CR>
+vnoremap <leader>kd    :action ActivateDebugToolWindow<CR>
 
 " Favorites
-let g:WhichKeyDesc_Applications_Favorites = "<leader>af favorites"
-nnoremap <leader>af    :action ActivateFavoritesToolWindow<CR>
-vnoremap <leader>af    :action ActivateFavoritesToolWindow<CR>
+let g:WhichKeyDesc_Applications_Favorites = "<leader>kf favorites"
+nnoremap <leader>kf    :action ActivateFavoritesToolWindow<CR>
+vnoremap <leader>kf    :action ActivateFavoritesToolWindow<CR>
+
+" Structure
+let g:WhichKeyDesc_Applications_Structure = "<leader>ke elements/structure"
+nnoremap <leader>ke    :action <ActivateStructureToolWindowCR>
+vnoremap <leader>ke    :action <ActivateStructureToolWindowCR>
 
 " Endpoints
-let g:WhichKeyDesc_Applications_Endpoints = "<leader>ae endpoints"
-nnoremap <leader>ae    :action ActivateEndpointsToolWindow<CR>
-vnoremap <leader>ae    :action ActivateEndpointsToolWindow<CR>
+let g:WhichKeyDesc_Applications_Endpoints = "<leader>kE endpoints"
+nnoremap <leader>kE    :action ActivateEndpointsToolWindow<CR>
+vnoremap <leader>kE    :action ActivateEndpointsToolWindow<CR>
 
 " Hierarchy
-let g:WhichKeyDesc_Applications_Usages = "<leader>ah hierarchy"
-nnoremap <leader>ah    :action ActivateHierarchyToolWindow<CR>
-vnoremap <leader>ah    :action ActivateHierarchyToolWindow<CR>
+let g:WhichKeyDesc_Applications_Usages = "<leader>kh hierarchy"
+nnoremap <leader>kh    :action ActivateHierarchyToolWindow<CR>
+vnoremap <leader>kh    :action ActivateHierarchyToolWindow<CR>
 
 " Maven
-let g:WhichKeyDesc_Applications_Maven = "<leader>am maven"
-nnoremap <leader>am    :action ActivateMavenToolWindow<CR>
-vnoremap <leader>am    :action ActivateMavenToolWindow<CR>
+let g:WhichKeyDesc_Applications_Maven = "<leader>km maven"
+nnoremap <leader>km    :action ActivateMavenToolWindow<CR>
+vnoremap <leader>km    :action ActivateMavenToolWindow<CR>
 
 " Problems
-let g:WhichKeyDesc_Applications_Problems = "<leader>ap problems"
-nnoremap <leader>ap    :action ActivateProblemsViewToolWindow<CR>
-vnoremap <leader>ap    :action ActivateProblemsViewToolWindow<CR>
+let g:WhichKeyDesc_Applications_Problems = "<leader>kp problems"
+nnoremap <leader>kp    :action ActivateProblemsViewToolWindow<CR>
+vnoremap <leader>kp    :action ActivateProblemsViewToolWindow<CR>
 
 " Plugins
-let g:WhichKeyDesc_Applications_Plugins = "<leader>aP plugins"
-nnoremap <leader>aP    :action WelcomeScreen.Plugins<CR>
-vnoremap <leader>aP    :action WelcomeScreen.Plugins<CR>
+let g:WhichKeyDesc_Applications_Plugins = "<leader>kP plugins"
+nnoremap <leader>kP    :action WelcomeScreen.Plugins<CR>
+vnoremap <leader>kP    :action WelcomeScreen.Plugins<CR>
 
 " Usages
-let g:WhichKeyDesc_Applications_Usages = "<leader>au usages"
-nnoremap <leader>au    :action ActivateFindToolWindow<CR>
-vnoremap <leader>au    :action ActivateFindToolWindow<CR>
+let g:WhichKeyDesc_Applications_Usages = "<leader>ku usages"
+nnoremap <leader>ku    :action ActivateFindToolWindow<CR>
+vnoremap <leader>ku    :action ActivateFindToolWindow<CR>
 
 " Run
-let g:WhichKeyDesc_Applications_Run = "<leader>ar run"
-nnoremap <leader>ar    :action ActivateRunToolWindow<CR>
-vnoremap <leader>ar    :action ActivateRunToolWindow<CR>
+let g:WhichKeyDesc_Applications_Run = "<leader>kr run"
+nnoremap <leader>kr    :action ActivateRunToolWindow<CR>
+vnoremap <leader>kr    :action ActivateRunToolWindow<CR>
 
 " Services
-let g:WhichKeyDesc_Applications_Services = "<leader>as services"
-nnoremap <leader>as    :action ActivateServicesToolWindow<CR>
-vnoremap <leader>as    :action ActivateServicesToolWindow<CR>
+let g:WhichKeyDesc_Applications_Services = "<leader>ks services"
+nnoremap <leader>ks    :action ActivateServicesToolWindow<CR>
+vnoremap <leader>ks    :action ActivateServicesToolWindow<CR>
 
 " Open a new terminal window
-let g:WhichKeyDesc_Applications_Terminal = "<leader>at terminal"
-nnoremap <leader>at    :action Terminal.OpenInTerminal<CR>
-vnoremap <leader>at    :action Terminal.OpenInTerminal<CR>
+let g:WhichKeyDesc_Applications_Terminal = "<leader>kt terminal"
+nnoremap <leader>kt    :action Terminal.OpenInTerminal<CR>
+vnoremap <leader>kt    :action Terminal.OpenInTerminal<CR>
 
 " Version Control
-let g:WhichKeyDesc_Applications_VersionControl = "<leader>av version-control"
-nnoremap <leader>av    :action ActivateVersionControlToolWindow<CR>
-vnoremap <leader>av    :action ActivateVersionControlToolWindow<CR>
+let g:WhichKeyDesc_Applications_VersionControl = "<leader>kv version-control"
+nnoremap <leader>kv    :action ActivateVersionControlToolWindow<CR>
+vnoremap <leader>kv    :action ActivateVersionControlToolWindow<CR>
 
 " Web
-let g:WhichKeyDesc_Applications_Web = "<leader>aw web"
-nnoremap <leader>aw    :action ActivateWebToolWindow<CR>
-vnoremap <leader>aw    :action ActivateWebToolWindow<CR>
+let g:WhichKeyDesc_Applications_Web = "<leader>kw web"
+nnoremap <leader>kw    :action ActivateWebToolWindow<CR>
+vnoremap <leader>kw    :action ActivateWebToolWindow<CR>
 
 " Show cpu usage
 let g:WhichKeyDesc_Applications_ActivityMonitor = "<leader>op activity-monitor"

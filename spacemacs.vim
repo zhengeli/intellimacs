@@ -5,7 +5,7 @@ source ~/.intellimacs/spacemacs/settings.vim
 
 " Key bindings
 
-let g:WhichKeyDesc_Applications = "<leader>a    +applications"
+let g:WhichKeyDesc_Applications = "<leader>k    +applications"
 source ~/.intellimacs/spacemacs/applications.vim
 
 let g:WhichKeyDesc_Buffers = "<leader>b    +buffers"

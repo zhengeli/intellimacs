@@ -59,12 +59,6 @@ let g:WhichKeyDesc_Windows_OtherFrame = "<leader>wo other-frame"
 nnoremap <leader>wo    :action NextProjectWindow<CR>
 vnoremap <leader>wo    :action NextProjectWindow<CR>
 
-" Show Event Log window
-let g:WhichKeyDesc_Windows_Popup = "<leader>wp +popup"
-let g:WhichKeyDesc_Windows_Popup_Messages = "<leader>wpm messages"
-nnoremap <leader>wpm    :action ActivateEventLogToolWindow<CR>
-vnoremap <leader>wpm    :action ActivateEventLogToolWindow<CR>
-
 " Split window below and focus
 let g:WhichKeyDesc_Windows_SplitWindowBelowAndFocus = "<leader>wS split-window-below-and-focus"
 nnoremap <leader>wS    <C-w>s<C-w>j
